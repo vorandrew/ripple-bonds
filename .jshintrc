@@ -1,0 +1,42 @@
+{
+
+  // Enforce
+
+  "curly": false,
+  "camelcase": true,
+  "bitwise": true,
+  "eqeqeq": true,
+  "forin": true,
+  "freeze": true,
+  "immed": true,
+  "indent": 2,
+  "latedef": false,
+  "newcap": true,
+  "noarg": true,
+  "nonew": true,
+  "quotmark": "single",
+  "undef": true,
+  "unused": true,
+  "strict": true,
+  "trailing": true,
+  "maxlen": 90,
+
+  // Env
+
+  "node": true,
+  "browser": true,
+  "devel": false,
+
+  // Relax
+
+  "boss": false,
+  "smarttabs": true,
+  "eqnull": false,
+  "expr": false,
+
+  // Globals
+
+  "globals": {
+    "ripple": false
+  }
+}
