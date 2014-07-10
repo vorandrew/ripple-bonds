@@ -38,6 +38,8 @@
 
   "globals": {
 
+    "define":false,
+
     /* Testing frameworks */
 
     "_": false,
