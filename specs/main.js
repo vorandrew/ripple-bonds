@@ -48,3 +48,16 @@ describe('Symbol definition', function () {
     });
   });
 });
+
+describe('Periods', function () {
+  it('getNumPeriods', function () {
+
+    var startDate = new Date(2014, 0, 1);
+    var endDate = new Date(2014, 1, 1);
+
+    var periods = RippleBonds.getNumPeriods(startDate, endDate);
+
+    expect(periods).toBeCloseTo(1, 1);
+
+  });
+});
