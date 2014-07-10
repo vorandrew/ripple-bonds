@@ -1,0 +1,28 @@
+{
+  "name": "ripple-bonds",
+  "version": "0.0.0",
+  "description": "Ripple add-on for lending transactions",
+  "main": "lib/ripple-bonds.js",
+  "dependencies": {
+    "gulp": "^3.8.6",
+    "gulp-jasmine": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santacruz123/ripple-bonds.git"
+  },
+  "keywords": [
+    "ripple",
+    "bonds"
+  ],
+  "author": "Andrew Vorobyov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santacruz123/ripple-bonds/issues"
+  },
+  "homepage": "https://github.com/santacruz123/ripple-bonds"
+}

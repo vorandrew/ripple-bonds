@@ -37,6 +37,15 @@
   // Globals
 
   "globals": {
-    "ripple": false
+
+    /* MOCHA */
+
+     "expect"     : false,
+     "describe"   : false,
+     "it"         : false,
+     "before"     : false,
+     "beforeEach" : false,
+     "after"      : false,
+     "afterEach"  : false
   }
 }
