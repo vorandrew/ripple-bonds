@@ -1,6 +1,6 @@
 {
   "name": "ripple-bonds",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/santacruz123/ripple-bonds",
   "authors": [
     "Andrey Vorobyov <vorandrew@gmail.com>"
@@ -21,6 +21,8 @@
   "ignore": [
     "**/.*",
     "node_modules",
+    "gulpfile.js",
+    "package.json",
     "bower_components",
     "specs",
     "test",

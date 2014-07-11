@@ -3,6 +3,8 @@ ripple-bonds
 
 Ripple add-on for lending transactions
 
+  [![Build Status](https://api.travis-ci.org/santacruz123/ripple-bonds.svg?branch=master)](https://travis-ci.org/santacruz123/ripple-bonds)
+  [![Coverage Status](https://img.shields.io/coveralls/santacruz123/ripple-bonds.svg)](https://coveralls.io/r/santacruz123/ripple-bonds)
 
 Conventions
 -----------
