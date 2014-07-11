@@ -86,4 +86,22 @@ describe('Dates', function () {
 
   });
 
+  describe('PV', function () {
+    it('PV', function () {
+      var startDate = new Date(2014, 0, 1);
+      var endDate = new Date(2015, 0, 1);
+
+      var pv = RippleBonds.PV(startDate, endDate, 0.05, 2);
+
+      expect(pv).toBeCloseTo(1.12, 2);
+    });
+
+    it('PVSymbol', function () {
+      var startDate = new Date(2014, 1, 1);
+      var pv = RippleBonds.PVSymbol(startDate, 'XFF', 0.1);
+      expect(pv).toBeCloseTo(0.003, 3);
+    });
+
+  });
+
 });
