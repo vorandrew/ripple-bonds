@@ -1,6 +1,6 @@
 {
   "name": "ripple-bonds",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Ripple add-on for lending transactions",
   "main": "lib/ripple-bonds.js",
   "dependencies": {
@@ -17,10 +17,16 @@
   },
   "keywords": [
     "ripple",
-    "bonds"
+    "lend",
+    "borrow",
+    "pv",
+    "ytm",
+    "zero-coupon",
+    "bond",
+    "coupon"
   ],
   "author": "Andrew Vorobyov",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/santacruz123/ripple-bonds/issues"
   },

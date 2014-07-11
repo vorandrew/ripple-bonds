@@ -1,26 +1,38 @@
 {
   "name": "ripple-bonds",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "homepage": "https://github.com/santacruz123/ripple-bonds",
   "authors": [
     "Andrey Vorobyov <vorandrew@gmail.com>"
   ],
   "description": "Library for lending inside ripple network",
-  "main": "ripple-bonds.js",
+  "main": "lib/ripple-bonds.js",
   "keywords": [
     "ripple",
-    "lending"
+    "lend",
+    "borrow",
+    "pv",
+    "ytm",
+    "zero-coupon",
+    "bond",
+    "coupon"
   ],
   "license": "MIT",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
+    "specs",
     "test",
     "tests"
   ],
   "dependencies": {
     "lodash": "~2.4.1"
-  }
+  },
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ]
 }
