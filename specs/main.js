@@ -3,6 +3,11 @@
 var _ = require('lodash');
 var RippleBonds = require('../lib/ripple-bonds.js');
 
+var incorrectCodes = ['XWZ', 'EXU'];
+
+var correctCodes = ['XFF', 'IDF', 'BAM'];
+
+
 describe('Global', function () {
 
   it('Has month codes', function () {
@@ -19,10 +24,6 @@ describe('Global', function () {
 });
 
 describe('Symbol definition', function () {
-
-  var incorrectCodes = ['XWZ', 'EXU'];
-
-  var correctCodes = ['XFF', 'IDF'];
 
   it('Checking month code - must throw', function () {
 
@@ -49,7 +50,7 @@ describe('Symbol definition', function () {
   });
 });
 
-describe('Periods', function () {
+describe('Dates', function () {
   it('getNumPeriods', function () {
 
     var startDate = new Date(2014, 0, 1);
@@ -60,4 +61,12 @@ describe('Periods', function () {
     expect(periods).toBeCloseTo(1, 1);
 
   });
+
+  it('getExpDate', function () {
+    _(correctCodes).forEach(function (elm) {
+      var date = RippleBonds.getExpDate(elm);
+      expect(date.getUTCDate()).toEqual(1);
+    });
+  });
+
 });
