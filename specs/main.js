@@ -69,4 +69,21 @@ describe('Dates', function () {
     });
   });
 
+  describe('YTM', function () {
+    it('YTM', function () {
+      var startDate = new Date(2014, 1, 1);
+      var endDate = new Date(2015, 1, 1);
+
+      var ytm = RippleBonds.YTM(startDate, endDate, 0.7, 2);
+
+      expect(ytm).toBeCloseTo(0.092, 3);
+    });
+
+    it('YTMSymbol', function () {
+      var ytm = RippleBonds.YTMSymbol(new Date(2014, 1, 1), 'XFF', 0.7);
+      expect(ytm).toBeCloseTo(0.006, 3);
+    });
+
+  });
+
 });
