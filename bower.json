@@ -1,6 +1,6 @@
 {
   "name": "ripple-bonds",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/santacruz123/ripple-bonds",
   "authors": [
     "Andrey Vorobyov <vorandrew@gmail.com>"
@@ -28,9 +28,7 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "lodash": "~2.4.1"
-  },
+  "dependencies": {},
   "moduleType": [
     "amd",
     "es6",
