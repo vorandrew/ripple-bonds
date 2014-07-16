@@ -25,27 +25,15 @@ describe('Global', function () {
 
 describe('Symbol definition', function () {
 
-  it('Checking month code - must throw', function () {
-
+  it('Checking month code - must be false', function () {
     _(incorrectCodes).forEach(function (elm) {
-
-      var f = function () {
-        rippleBonds.checkSymbol(elm);
-      };
-
-      expect(f).toThrow();
+      expect(rippleBonds.isValidSymbol(elm)).toBe(false);
     });
   });
 
-  it('Checking month code - must not throw', function () {
-
+  it('Checking month code - must true', function () {
     _(correctCodes).forEach(function (elm) {
-
-      var f = function () {
-        rippleBonds.checkSymbol(elm);
-      };
-
-      expect(f).not.toThrow();
+      expect(rippleBonds.isValidSymbol(elm)).toBe(true);
     });
   });
 });
