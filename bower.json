@@ -1,13 +1,13 @@
 {
-  "name": "ripple-bonds",
-  "version": "0.1.5",
-  "homepage": "https://github.com/santacruz123/ripple-bonds",
-  "authors": [
+  "name"         : "ripple-bonds",
+  "version"      : "0.1.6",
+  "homepage"     : "https://github.com/santacruz123/ripple-bonds",
+  "authors"      : [
     "Andrey Vorobyov <vorandrew@gmail.com>"
   ],
-  "description": "Library for lending inside ripple network",
-  "main": "lib/ripple-bonds.js",
-  "keywords": [
+  "description"  : "Library for lending inside ripple network",
+  "main"         : "lib/ripple-bonds.js",
+  "keywords"     : [
     "ripple",
     "lend",
     "borrow",
@@ -17,8 +17,8 @@
     "bond",
     "coupon"
   ],
-  "license": "MIT",
-  "ignore": [
+  "license"      : "MIT",
+  "ignore"       : [
     "**/.*",
     "node_modules",
     "gulpfile.js",
@@ -28,8 +28,8 @@
     "test",
     "tests"
   ],
-  "dependencies": {},
-  "moduleType": [
+  "dependencies" : {},
+  "moduleType"   : [
     "amd",
     "es6",
     "globals",

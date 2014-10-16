@@ -3,7 +3,7 @@
 var _ = require('lodash');
 var rippleBonds = require('../lib/ripple-bonds.js');
 
-var incorrectCodes = ['XWZ', 'EXU'];
+var incorrectCodes = ['XWZ', 'EXU', 'USD', 'EUR'];
 
 var correctCodes = ['XFF', 'IDF', 'BAM', 'BAZ'];
 
