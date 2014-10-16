@@ -27,13 +27,13 @@ describe('Symbol definition', function () {
 
   it('Checking month code - must be false', function () {
     _(incorrectCodes).forEach(function (elm) {
-      expect(rippleBonds.isValidSymbol(elm)).toBe(false);
+      expect(rippleBonds.isSymbol(elm)).toBe(false);
     });
   });
 
   it('Checking month code - must true', function () {
     _(correctCodes).forEach(function (elm) {
-      expect(rippleBonds.isValidSymbol(elm)).toBe(true);
+      expect(rippleBonds.isSymbol(elm)).toBe(true);
     });
   });
 });
