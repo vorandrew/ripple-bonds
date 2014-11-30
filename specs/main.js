@@ -64,7 +64,7 @@ describe('Dates', function () {
 
       var ytm = rippleBonds.YTM(startDate, endDate, 0.7, 2);
 
-      expect(ytm).toBeCloseTo(0.092, 3);
+      expect(ytm).toBeCloseTo(0.091, 3);
     });
 
     it('YTMSymbol', function () {
@@ -81,7 +81,7 @@ describe('Dates', function () {
 
       var pv = rippleBonds.PV(startDate, endDate, 0.05, 2);
 
-      expect(pv).toBeCloseTo(1.12, 2);
+      expect(pv).toBeCloseTo(1.11, 2);
     });
 
     it('PVSymbol', function () {
