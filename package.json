@@ -1,6 +1,6 @@
 {
   "name": "ripple-bonds",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Ripple add-on for lending transactions",
   "main": "lib/ripple-bonds.js",
   "dependencies": {},
