@@ -1,23 +1,23 @@
 {
-  "name"            : "ripple-bonds",
-  "version"         : "0.1.9",
-  "description"     : "Ripple add-on for lending transactions",
-  "main"            : "lib/ripple-bonds.js",
-  "dependencies"    : {
-    "gulp"         : "^3.8.6",
-    "gulp-jasmine" : "^0.2.0"
+  "name": "ripple-bonds",
+  "version": "0.1.9",
+  "description": "Ripple add-on for lending transactions",
+  "main": "lib/ripple-bonds.js",
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "gulp": "^3.9.0",
+    "gulp-jasmine": "^2.0.1"
   },
-  "devDependencies" : {
-    "lodash" : "^2.4.1"
+  "scripts": {
+    "test": "gulp",
+    "build": "./node_modules/coffee-script/bin/coffee -o lib src/ripple-bonds.coffee"
   },
-  "scripts"         : {
-    "test" : "gulp"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santacruz123/ripple-bonds.git"
   },
-  "repository"      : {
-    "type" : "git",
-    "url"  : "https://github.com/santacruz123/ripple-bonds.git"
-  },
-  "keywords"        : [
+  "keywords": [
     "ripple",
     "lend",
     "borrow",
@@ -27,10 +27,10 @@
     "bond",
     "coupon"
   ],
-  "author"          : "Andrew Vorobyov",
-  "license"         : "MIT",
-  "bugs"            : {
-    "url" : "https://github.com/santacruz123/ripple-bonds/issues"
+  "author": "Andrew Vorobyov <vorandrew@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santacruz123/ripple-bonds/issues"
   },
-  "homepage"        : "https://github.com/santacruz123/ripple-bonds"
+  "homepage": "https://github.com/santacruz123/ripple-bonds"
 }
