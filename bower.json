@@ -1,6 +1,6 @@
 {
   "name"         : "ripple-bonds",
-  "version"      : "0.1.9",
+  "version"      : "0.1.12",
   "homepage"     : "https://github.com/santacruz123/ripple-bonds",
   "authors"      : [
     "Andrey Vorobyov <vorandrew@gmail.com>"
